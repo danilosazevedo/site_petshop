@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*CABEÇALHO*/
+
+body {
+    font-family: 'Alkalami', serif;
+    text-align: justify;
+    background-color: #cbdcdf;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #495168;
+    font-family: 'Oswald', sans-serif;
+    color: #cbdcdf
+}
+
+header h1,
+h2 {
+    font-weight: normal;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3,
+h2 {
+    color: #1b8798;
+}
+
+.container,
+.servicos {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 8px;
+    color: #cbdcdf;
+}
+
+header li a:hover {
+    color: #f9f9f1;
+}
+
+/*SOBRE*/
+
+section .container {
+    display: flex;
+    margin: 26px;
+    align-items: center;
+}
+
+section div {
+    margin: 16px;
+    align-items: flex-start;
+}
+
+/*VETERINARIOS*/
+
+section ul li img {
+    height: 300px;
+}
+
+section ul li {
+    display: flex;
+    margin-right: 8px auto;
+}
+
+section div h3 img {
+    height: 16px;
+}
+
+/*SERVICOS*/
+
+.servicos img {
+    height: 200px;
+    width: 300px;
+    margin: 8px auto;
+    margin-right: 16px;
+    display: flex;
+}
+
+.servicos {
+    display: flex;
+}
+
+.servicos {
+    text-align: left;
+}
+
+.servicos p {
+    color: #1b8798
+}
+
+/*CONTATO*/
+
+#contact .container {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 26px;
+}
+
+.social-links li {
+    margin-right: 16px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*FORMULARIO*/
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none
+}
+
+form button {
+    background-color: #1b8798;
+    color: #f9f9f1;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    font-size: large;
+}
+
+form button:hover {
+    background-color: #2a2344;
+    color: #f9f9f1;
+}
+
+form button {
+    cursor: pointer
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #1b8798
+}
+
+.safe img {
+    margin: 8px auto;
+    margin-right: 16px;
+    display: flex;
+    width: 200px;
+}
+
+/*RODAPÉ*/
+
+footer {
+    background-color: #2a2344;
+    color: #f9f9f1;
+    padding: 16px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
